@@ -1,24 +1,25 @@
 import './App.css';
+import avatar from './avatar.jpg';
 
 function App() {
     const links = [
-        { label: 'GitHub', url: 'https://github.com/yourusername' },
-        { label: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
-        { label: 'Twitter', url: 'https://twitter.com/yourusername' },
-        { label: 'Portfolio', url: 'https://yourwebsite.com' },
+        { label: 'YouTube', url: 'https://www.youtube.com/@itsyaun' },
+        { label: 'Instagram', url: 'https://www.instagram.com/yaun2000/' },
+        { label: 'Tiktok', url: 'https://www.tiktok.com/@yaun2000' }
     ];
 
     return (
         <div className="App">
             <div className="card">
                 <div className="profile">
-                    <img
-                        src="https://via.placeholder.com/120"
+                    {/*<img
+                        src="/avatar.jpg"
                         alt="Profile"
                         className="profile-pic"
-                    />
+                    />*/}
+                    <img src={avatar} alt="Profile" className="profile-pic" />
                     <h1>Hi! My name is Yaun</h1>
-                    <p className="bio">I explore new stuff ✨</p>
+                    <p className="bio">Lifehacks, Crafts and Gadgets!</p>
                 </div>
 
                 {/*<div className="links-container">*/}
@@ -38,7 +39,7 @@ function App() {
                 {/*</div>*/}
 
                 <footer>
-                    <p>✨ Made by Yaun ✨</p>
+                    <p>✨ Made by Yaun, website still in progress ✨</p>
                 </footer>
             </div>
         </div>
