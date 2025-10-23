@@ -18,7 +18,7 @@ function App() {
                         className="profile-pic"
                     />*/}
                     <img src={avatar} alt="Profile" className="profile-pic" />
-                    <h1>Hi! My name is Yaun</h1>
+                    <h1>Yaun</h1>
                     <p className="bio">Lifehacks, Crafts and Gadgets!</p>
                 </div>
 
