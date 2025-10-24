@@ -6,8 +6,6 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
-
 }
 
 .App {
@@ -33,7 +31,6 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  /*border: 3px solid white;*/
   margin-bottom: 0.5rem;
 }
 
@@ -42,14 +39,49 @@ body {
   opacity: 0.9;
 }
 
-.links-container {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 20px;
-  padding: 1.5rem 1rem;
-  backdrop-filter: blur(5px);
-  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+/* Toggle buttons with sliding pill */
+.toggle-container {
+  position: relative;
+  margin-bottom: 1.5rem;
 }
 
+.toggle-buttons {
+  display: flex;
+  position: relative;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+}
+
+.toggle-buttons button {
+  flex: 1;
+  padding: 0.6rem 0;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  z-index: 10;
+  transition: color 0.3s ease;
+}
+
+.toggle-buttons button.active {
+  color: #0083b0;
+}
+
+.toggle-pill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: white;
+  border-radius: 2rem;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  z-index: 5;
+}
+
+/* Links */
 .links {
   display: flex;
   flex-direction: column;
