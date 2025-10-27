@@ -1,14 +1,17 @@
 import './App.css';
 import avatar from './avatar.jpg';
 import { useState, useRef, useEffect } from 'react';
+import { FaYoutube, FaInstagram, FaTiktok } from 'react-icons/fa';
+
 
 function App() {
     const [view, setView] = useState('socials'); // 'socials' or 'products'
     const socials = [
-        { label: 'YouTube', url: 'https://www.youtube.com/@itsyaun' },
-        { label: 'Instagram', url: 'https://www.instagram.com/yaun2000/' },
-        { label: 'Tiktok', url: 'https://www.tiktok.com/@yaun2000' }
+        { label: 'YouTube', url: 'https://www.youtube.com/@itsyaun', icon: <FaYoutube color="#FF0000" /> },
+        { label: 'Instagram', url: 'https://www.instagram.com/yaun2000/', icon: <FaInstagram color="#E1306C" /> },
+        { label: 'Tiktok', url: 'https://www.tiktok.com/@yaun2000', icon: <FaTiktok color="#000000" /> }
     ];
+
 
     const products = [
         { label: 'Gadget X', url: '/most-viral' },
@@ -73,7 +76,8 @@ function App() {
                             rel="noopener noreferrer"
                             className="link-btn"
                         >
-                            {link.label}
+                            {link.icon && <span className="icon">{link.icon}</span>}
+                            <span>{link.label}</span>
                         </a>
                     ))}
                 </div>
