@@ -14,9 +14,9 @@ function App() {
 
 
     const products = [
-        { label: 'Gadget X', url: '/most-viral' },
-        { label: 'Gadget Y', url: '/stain-remover' },
-        { label: 'Gadget Z', url: '/gadget-x' }
+        { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE' },
+        // { label: 'Gadget Y', url: '/stain-remover' },
+        // { label: 'Gadget Z', url: '/gadget-x' }
     ];
 
     const linksToShow = view === 'socials' ? socials : products;
@@ -44,6 +44,7 @@ function App() {
                     <h1>Yaun</h1>
                     <p className="bio">Lifehacks, Crafts and Gadgets!</p>
                 </div>
+                <a href="https://www.amazon.com/shop/yaun">My Amazon Storefront</a>
 
                 {/* Toggle buttons with sliding pill */}
                 <div className="toggle-container">
