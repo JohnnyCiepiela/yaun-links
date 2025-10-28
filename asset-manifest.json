@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/yaun-links/static/css/main.53d25496.css",
-    "main.js": "/yaun-links/static/js/main.60ff604a.js",
+    "main.js": "/yaun-links/static/js/main.c5b24548.js",
     "static/js/453.191c557d.chunk.js": "/yaun-links/static/js/453.191c557d.chunk.js",
     "static/media/avatar.jpg": "/yaun-links/static/media/avatar.a27a1bcbf5dbfc9c313e.jpg",
     "index.html": "/yaun-links/index.html",
     "main.53d25496.css.map": "/yaun-links/static/css/main.53d25496.css.map",
-    "main.60ff604a.js.map": "/yaun-links/static/js/main.60ff604a.js.map",
+    "main.c5b24548.js.map": "/yaun-links/static/js/main.c5b24548.js.map",
     "453.191c557d.chunk.js.map": "/yaun-links/static/js/453.191c557d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53d25496.css",
-    "static/js/main.60ff604a.js"
+    "static/js/main.c5b24548.js"
   ]
 }
