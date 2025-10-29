@@ -1,7 +1,7 @@
 import './App.css';
 import avatar from './avatar.jpg';
 import { useState, useRef, useEffect } from 'react';
-import { FaYoutube, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaTiktok, FaAmazon } from 'react-icons/fa';
 
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
                     <h1>Yaun</h1>
                     <p className="bio">Lifehacks, Crafts and Gadgets!</p>
                 </div>
-                <a href="https://www.amazon.com/shop/yaun">My Amazon Storefront</a>
+                <a className="amazon-link" href="https://www.amazon.com/shop/yaun"><FaAmazon color="#ffffff" /></a>
 
                 {/* Toggle buttons with sliding pill */}
                 <div className="toggle-container">

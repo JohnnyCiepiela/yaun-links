@@ -24,7 +24,7 @@ body {
 }
 
 .profile {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .profile-pic {
@@ -108,10 +108,14 @@ body {
   font-size: 1.3rem;
 }
 
-
 .link-btn:hover {
   background: rgba(255, 255, 255, 0.35);
   transform: scale(1.05);
+}
+
+.amazon-link {
+  /*margin-bottom: 5rem;*/
+  font-size: 2.5rem;
 }
 
 footer {
