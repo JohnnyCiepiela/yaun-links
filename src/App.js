@@ -44,7 +44,14 @@ function App() {
                     <h1>Yaun</h1>
                     <p className="bio">Lifehacks, Crafts and Gadgets!</p>
                 </div>
-                <a className="amazon-link" href="https://www.amazon.com/shop/yaun"><FaAmazon color="#ffffff" /></a>
+
+                <a
+                    className="amazon-link"
+                    href="https://www.amazon.com/shop/yaun"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <FaAmazon color="#ffffff" />
+                </a>
 
                 {/* Toggle buttons with sliding pill */}
                 <div className="toggle-container">
