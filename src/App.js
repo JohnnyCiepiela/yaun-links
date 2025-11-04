@@ -15,8 +15,8 @@ function App() {
 
     const products = [
         { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE' },
-        // { label: 'Gadget Y', url: '/stain-remover' },
-        // { label: 'Gadget Z', url: '/gadget-x' }
+        { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu' },
+        { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV' },
     ];
 
     const linksToShow = view === 'socials' ? socials : products;
