@@ -3,6 +3,7 @@ import avatar from './avatar.jpg';
 import { useState, useRef, useEffect } from 'react';
 import { FaYoutube, FaInstagram, FaTiktok, FaAmazon } from 'react-icons/fa';
 
+import eggCubeImg from './products_photos/egg_cuber.png';
 
 function App() {
     const [view, setView] = useState('socials'); // 'socials' or 'products'
@@ -14,9 +15,9 @@ function App() {
 
 
     const products = [
-        { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE' },
-        { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu' },
-        { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV' },
+        { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE', image: eggCubeImg },
+        { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu',  },
+        { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV',  },
     ];
 
     const linksToShow = view === 'socials' ? socials : products;
@@ -84,7 +85,12 @@ function App() {
                             rel="noopener noreferrer"
                             className="link-btn"
                         >
-                            {link.icon && <span className="icon">{link.icon}</span>}
+                            {view === 'socials' && link.icon && (
+                                <span className="icon">{link.icon}</span>
+                            )}
+                            {view === 'products' && link.image && (
+                                <img src={link.image} alt={link.label} className="product-thumb" />
+                            )}
                             <span>{link.label}</span>
                         </a>
                     ))}
