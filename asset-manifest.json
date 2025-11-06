@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/yaun-links/static/css/main.5771014e.css",
-    "main.js": "/yaun-links/static/js/main.08e92381.js",
+    "main.css": "/yaun-links/static/css/main.97f45988.css",
+    "main.js": "/yaun-links/static/js/main.6eddebac.js",
     "static/js/453.191c557d.chunk.js": "/yaun-links/static/js/453.191c557d.chunk.js",
+    "static/media/egg_cuber.png": "/yaun-links/static/media/egg_cuber.e4ed6299afdb745552fb.png",
     "static/media/avatar.jpg": "/yaun-links/static/media/avatar.a27a1bcbf5dbfc9c313e.jpg",
     "index.html": "/yaun-links/index.html",
-    "main.5771014e.css.map": "/yaun-links/static/css/main.5771014e.css.map",
-    "main.08e92381.js.map": "/yaun-links/static/js/main.08e92381.js.map",
+    "main.97f45988.css.map": "/yaun-links/static/css/main.97f45988.css.map",
+    "main.6eddebac.js.map": "/yaun-links/static/js/main.6eddebac.js.map",
     "453.191c557d.chunk.js.map": "/yaun-links/static/js/453.191c557d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5771014e.css",
-    "static/js/main.08e92381.js"
+    "static/css/main.97f45988.css",
+    "static/js/main.6eddebac.js"
   ]
 }
