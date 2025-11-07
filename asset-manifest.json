@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/yaun-links/static/css/main.97f45988.css",
-    "main.js": "/yaun-links/static/js/main.6eddebac.js",
+    "main.js": "/yaun-links/static/js/main.1a23f121.js",
     "static/js/453.191c557d.chunk.js": "/yaun-links/static/js/453.191c557d.chunk.js",
     "static/media/egg_cuber.png": "/yaun-links/static/media/egg_cuber.e4ed6299afdb745552fb.png",
     "static/media/avatar.jpg": "/yaun-links/static/media/avatar.a27a1bcbf5dbfc9c313e.jpg",
+    "static/media/traditional_gonggi.jpg": "/yaun-links/static/media/traditional_gonggi.413dc388ae82441e8b06.jpg",
     "index.html": "/yaun-links/index.html",
     "main.97f45988.css.map": "/yaun-links/static/css/main.97f45988.css.map",
-    "main.6eddebac.js.map": "/yaun-links/static/js/main.6eddebac.js.map",
+    "main.1a23f121.js.map": "/yaun-links/static/js/main.1a23f121.js.map",
     "453.191c557d.chunk.js.map": "/yaun-links/static/js/453.191c557d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97f45988.css",
-    "static/js/main.6eddebac.js"
+    "static/js/main.1a23f121.js"
   ]
 }
