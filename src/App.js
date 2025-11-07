@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { FaYoutube, FaInstagram, FaTiktok, FaAmazon } from 'react-icons/fa';
 
 import eggCubeImg from './products_photos/egg_cuber.png';
+import traditionalGonggiImg from './products_photos/traditional_gonggi.jpg';
 
 function App() {
     const [view, setView] = useState('socials'); // 'socials' or 'products'
@@ -17,7 +18,7 @@ function App() {
     const products = [
         { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE', image: eggCubeImg },
         { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu',  },
-        { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV',  },
+        { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV', image: traditionalGonggiImg},
     ];
 
     const linksToShow = view === 'socials' ? socials : products;
