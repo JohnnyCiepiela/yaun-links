@@ -5,19 +5,19 @@ import { FaYoutube, FaInstagram, FaTiktok, FaAmazon } from 'react-icons/fa';
 
 import eggCubeImg from './products_photos/egg_cuber.png';
 import traditionalGonggiImg from './products_photos/traditional_gonggi.jpg';
+import squidgameGonggiImg from './products_photos/squidgame_gonggi.png';
 
 function App() {
-    const [view, setView] = useState('socials'); // 'socials' or 'products'
+    const [view, setView] = useState('socials');
     const socials = [
         { label: 'YouTube', url: 'https://www.youtube.com/@itsyaun', icon: <FaYoutube color="#FF0000" /> },
         { label: 'Instagram', url: 'https://www.instagram.com/yaun2000/', icon: <FaInstagram color="#E1306C" /> },
         { label: 'Tiktok', url: 'https://www.tiktok.com/@yaun2000', icon: <FaTiktok color="#000000" /> }
     ];
 
-
     const products = [
         { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE', image: eggCubeImg },
-        { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu',  },
+        { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu', image: squidgameGonggiImg },
         { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV', image: traditionalGonggiImg},
     ];
 
@@ -27,7 +27,6 @@ function App() {
     const productsRef = useRef(null);
     const [pillStyle, setPillStyle] = useState({});
 
-    // Update pill position whenever view changes
     useEffect(() => {
         const activeRef = view === 'socials' ? socialsRef.current : productsRef.current;
         if (activeRef) {
