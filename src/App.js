@@ -7,6 +7,7 @@ import eggCubeImg from './products_photos/egg_cuber.png';
 import traditionalGonggiImg from './products_photos/traditional_gonggi.jpg';
 import squidgameGonggiImg from './products_photos/squidgame_gonggi.png';
 import bicPenImg from './products_photos/bic_pen.png';
+import penSpinningImg from './products_photos/pen_spinning.png';
 
 function App() {
     const [view, setView] = useState('socials');
@@ -19,6 +20,7 @@ function App() {
     const products = [
         { label: 'BIC Pens (Pen Bow, Penzooka, Pen Whistle)', url: 'https://amzn.to/4hVKD8d', image: bicPenImg },
         { label: 'Egg Cube Maker', url: 'https://amzn.to/47HY8VE', image: eggCubeImg },
+        { label: 'Pen for Pen Spinning', url: 'https://amzn.to/4oNaSAv', image: penSpinningImg },
         { label: 'Squid Game Gonggi', url: 'https://amzn.to/4oSFNeu', image: squidgameGonggiImg },
         { label: 'Traditional Gonggi', url: 'https://amzn.to/47UmdIV', image: traditionalGonggiImg},
     ];
