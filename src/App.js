@@ -101,7 +101,7 @@ function App() {
                 </div>
 
                 <footer>
-                    <p>✨ Made by Yaun, website still in progress ✨</p>
+                    <p>✨ Website made by Yaun, still in progress ✨</p>
                 </footer>
             </div>
         </div>
