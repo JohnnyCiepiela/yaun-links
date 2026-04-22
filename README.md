@@ -1,3 +1,3 @@
-## Links page for social media
+## Links page for socials
 
 https://johnnyciepiela.github.io/yaun-links/
